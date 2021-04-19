@@ -3,11 +3,11 @@
     height: 100%;
     margin: 0;
     padding: 0;
-}
+} /* o body já vem com a margem pre-estabelecida, então eu tirei essa margem porque ela atrapalhava a imagem */
 
 .cabecalho {
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-bottom: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
+    padding-top: 20px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
     width: 200%;
     height: 270px;
     position: absolute;
@@ -20,8 +20,8 @@
 .titulo {
     font-family: 'Bebas Neue', cursive;
     font-weight: 100;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 30px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
+    padding-top: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
     color: white;
     font-size: 90px;
     letter-spacing: 2px;
@@ -30,16 +30,16 @@
 
 .subtitulo {
     font-family: 'Poppins', sans-serif;
-    padding-left: 35px;
+    padding-left: 35px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
     font-size: 30px;
     font-weight: 1500;
 }
 
 .geral {
-    padding-left: 30px;
+    padding-left: 30px; 
     padding-right: 30px;
-}
+} /* margem na direita e esquerda nda parte principal do site (topicos de pesquisa) */
 
 .origemDoUniverso {
-    padding-top: 320px;
+    padding-top: 320px; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
 }
