@@ -13,12 +13,13 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #F6F9FF;
 } /* o body já vem com a margem pre-estabelecida, então eu tirei essa margem porque ela atrapalhava a imagem */
 
 .cabecalho {
-    padding-bottom: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
-    padding-top: 20px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    width: 200%;
+    padding-bottom: 10px; /* coloquei uma margem embaixo, já que eu tinha tirado ela antes */
+    padding-top: 20px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
+    width: 100%;
     height: 270px;
     position: absolute;
     top: 0;
@@ -29,27 +30,85 @@
 
 .titulo {
     font-family: 'Bebas Neue', cursive;
-    font-weight: 100;
-    padding-left: 30px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
+    font-weight: 50;
+    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
     padding-top: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
     color: white;
-    font-size: 90px;
+    font-size: 80px;
     letter-spacing: 2px;
     line-height: 1px;
 }
 
 .subtitulo {
     font-family: 'Poppins', sans-serif;
-    padding-left: 35px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    font-size: 30px;
-    font-weight: 1500;
+    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
+    font-size: 31px;
+    font-weight: bolder;
 }
 
 .geral {
-    padding-left: 30px; 
+    padding-left: 50px;
     padding-right: 30px;
 } /* margem na direita e esquerda nda parte principal do site (topicos de pesquisa) */
 
 .origemDoUniverso {
     padding-top: 320px; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
+}
+
+.assunto {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #465F6E;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.textinho {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.nada {
+    background-image: url(https://i.pinimg.com/originals/d2/9a/24/d29a24ecde7a2a9763cc5d838aa15df1.png);
+}
+
+.rodape {
+    padding-left: 50px;
+    padding-right: 30px;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/originals/56/b8/04/56b804ecf259e97dce659991f343334b.png);
+}
+
+.grupo {
+    text-align: right;
+    color: white;
+}
+
+.integrantes {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 10px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 75;
+}
+
+.nomes {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.simbolo {
+    width: 10%;
+    height: 10%;
+}
+
+.mod {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    padding-bottom: 50px; 
 }
