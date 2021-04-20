@@ -63,11 +63,20 @@
     font-weight: 100;
 }
 
+
 .textinho {
     width: 500px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: justify;
+    padding-right: 550px;
+    margin-right: 550px;
+}
+
+.video0 {
+    width: 355px;
+    height: 200px;
+    padding-left: 550px;
 }
 
 .nada {
