@@ -23,32 +23,32 @@
     height: 270px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1;
     background-image: url('https://i.pinimg.com/originals/53/c0/f5/53c0f5da3c2a05de8679e7a12460824b.png');
     opacity: 0,5;
+    padding-left: 50px;
 }
 
 .titulo {
     font-family: 'Bebas Neue', cursive;
     font-weight: 50;
-    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    padding-top: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
     color: white;
     font-size: 80px;
     letter-spacing: 2px;
-    line-height: 1px;
+    line-height: 5px;
 }
 
 .subtitulo {
     font-family: 'Poppins', sans-serif;
-    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    font-size: 31px;
+    font-size: 28px;
     font-weight: bolder;
+    width: 500px;
 }
 
 .geral {
     padding-left: 50px;
     padding-right: 30px;
+    text-align: center;
 } /* margem na direita e esquerda nda parte principal do site (topicos de pesquisa) */
 
 .origemDoUniverso {
@@ -63,21 +63,35 @@
     font-weight: 100;
 }
 
-
-.textinho {
+.textinho0 {
     width: 500px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: justify;
-    padding-right: 550px;
-    margin-right: 550px;
+    padding-right: 50px;
 }
 
-.video0 {
+.textinho1 {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.video {
     width: 355px;
     height: 200px;
-    padding-left: 550px;
 }
+
+.tabela {
+    border:transparent;
+}
+
+/*.tabelac {
+    border: transparent;
+    width: 60%;
+} */
 
 .nada {
     background-image: url(https://i.pinimg.com/originals/d2/9a/24/d29a24ecde7a2a9763cc5d838aa15df1.png);
@@ -112,6 +126,17 @@
     height: 60px;
     width: 200px;
     text-align: left;
+}
+
+.logo{
+    height: 75px;
+    width: 250px;
+    text-align: right;
+}
+
+.teste {
+    height: 60px;
+    width: 200px;
 }
 
 .mod {
