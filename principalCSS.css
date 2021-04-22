@@ -10,84 +10,98 @@
 
 .body {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     margin: 0;
     padding: 0;
     background-color: #F6F9FF;
 } /* o body já vem com a margem pre-estabelecida, então eu tirei essa margem porque ela atrapalhava a imagem */
 
 .cabecalho {
-    padding-bottom: 10px; /* coloquei uma margem embaixo, já que eu tinha tirado ela antes */
-    padding-top: 20px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
+    padding-bottom: 1%; /*coloquei uma margem embaixo, já que eu tinha tirado ela antes */
+    padding-top: 3%; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
     width: 100%;
-    height: 270px;
-    position: absolute;
-    top: 0;
+    height: 25%;
+    position:absolute;
+    top: 1;
     left: 0;
-    background-image: url('https://i.pinimg.com/originals/53/c0/f5/53c0f5da3c2a05de8679e7a12460824b.png');
+    /*
+
+    */
+    background-image: url('https://i.pinimg.com/originals/37/d6/a9/37d6a932496dfa58897e42718cbdbbcc.jpg');
     opacity: 0,5;
 }
 
 .titulo {
     font-family: 'Bebas Neue', cursive;
     font-weight: 50;
-    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    padding-top: 10px; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
     color: white;
-    font-size: 80px;
-    letter-spacing: 2px;
-    line-height: 1px;
+    font-size: 600%;
+    letter-spacing: 15%;
+    line-height: 1%;
+    padding-left: 3%;
 }
 
 .subtitulo {
     font-family: 'Poppins', sans-serif;
-    padding-left: 50px; /* coloquei uma margem na esquerda já que eu tinha tirado ela antes */
-    font-size: 31px;
+    font-size: 210%;
+    /* padding-bottom: 5%; */
     font-weight: bolder;
+    width: 50%;
+    padding-left: 3%;
 }
 
 .geral {
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
 } /* margem na direita e esquerda nda parte principal do site (topicos de pesquisa) */
 
 .origemDoUniverso {
-    padding-top: 320px; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
+    padding-top: 23%; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
 }
 
 .assunto {
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
+    font-size: 200%;
     color: #465F6E;
-    letter-spacing: 2px;
+    letter-spacing: 1%;
     font-weight: 100;
+    padding: 0%;
 }
 
-
-.textinho {
+.textinho0 {
     width: 500px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: justify;
-    padding-right: 550px;
-    margin-right: 550px;
+    margin-left: -10%;
+    /* padding-bottom: 5%; */
 }
 
-.video0 {
-    width: 355px;
-    height: 200px;
-    padding-left: 550px;
+.textinho1 {
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    margin-left: 10%;
+    /* padding-bottom: 5%; */
 }
 
-.nada {
-    background-image: url(https://i.pinimg.com/originals/d2/9a/24/d29a24ecde7a2a9763cc5d838aa15df1.png);
+.video {
+    width: 500px;
+    height: 281px;
+    /* padding-bottom: 5%; */
+}
+
+.tabela {
+    border:transparent;
 }
 
 .rodape {
     padding-left: 50px;
     padding-right: 30px;
     height: 120px;
-    background-image: url(https://i.pinimg.com/originals/56/b8/04/56b804ecf259e97dce659991f343334b.png);
+    background-image: url('https://i.pinimg.com/originals/c5/fd/37/c5fd375c973655c45bb21f700549b94f.jpg');
 }
 
 .integrantes {
@@ -103,15 +117,21 @@
 .nomes {
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
-    font-weight: 250;
+    font-weight: 500;
     text-align: right;
     color: white;
 }
 
 .simbolo {
-    height: 60px;
-    width: 200px;
-    text-align: left;
+    padding-top: 1%;
+    height: 75px;
+    width: 250px;
+}
+
+.logo{
+    height: 75px;
+    width: 250px;
+    text-align: right;
 }
 
 .mod {
@@ -120,4 +140,14 @@
     font-weight: 600;
     text-align: justify;
     padding-bottom: 50px; 
+}
+
+.espaço {
+    padding: 4%;
+}
+
+.logo {
+    padding-right: 10%;
+    padding-bottom: 20%;
+    padding-top: 1%;
 }
