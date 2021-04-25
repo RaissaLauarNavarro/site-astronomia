@@ -17,34 +17,33 @@
 } /* o body já vem com a margem pre-estabelecida, então eu tirei essa margem porque ela atrapalhava a imagem */
 
 .cabecalho {
-    padding-bottom: 1%; /*coloquei uma margem embaixo, já que eu tinha tirado ela antes */
-    padding-top: 3%; /* coloquei uma margem no topo, já que eu tinha tirado ela antes */
+    padding-bottom: 4%; /*coloquei uma margem embaixo, já que eu tinha tirado ela antes */
+    padding-top: 4%;
     width: 100%;
     height: 25%;
-    position:absolute;
-    top: 1;
-    left: 0;
-    /*
-
-    */
+    position:relative;
+    top: 100%;
     background-image: url('https://i.pinimg.com/originals/37/d6/a9/37d6a932496dfa58897e42718cbdbbcc.jpg');
-    opacity: 0,5;
+}
+
+.cabecalhomaior {
+    padding-bottom: 15%;
 }
 
 .titulo {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 50;
+    font-family: 'Montserrat', sans-serif;
+    font: weight 50%;
     color: white;
-    font-size: 600%;
+    font-size: 400%;
     letter-spacing: 15%;
-    line-height: 1%;
+    line-height: 0%;
     padding-left: 3%;
 }
 
 .subtitulo {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 210%;
-    /* padding-bottom: 5%; */
+    color: #141414;
     font-weight: bolder;
     width: 50%;
     padding-left: 3%;
@@ -56,32 +55,52 @@
     text-align: center;
 } /* margem na direita e esquerda nda parte principal do site (topicos de pesquisa) */
 
-.origemDoUniverso {
-    padding-top: 23%; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
-}
-
 .assunto {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
     color: #465F6E;
-    letter-spacing: 1%;
-    font-weight: 100;
+    letter-spacing: 0%;
+    font-weight:bold;
     padding: 0%;
 }
 
 .textinho0 {
     width: 500px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #616161;
     text-align: justify;
     margin-left: -10%;
     /* padding-bottom: 5%; */
 }
 
+.teste {
+    padding-top: 2%; /* a imagem estava comendo o resto do texto então eu coloquei uma margem no topo do primeiro texto depois do cabeçalho */
+}
+
+.testetabela {
+    border-color: transparent;
+    color: transparent;
+    -webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  user-select: none;  
+}
+
+/*
+.teste{
+    color: #F6F9FF;
+}
+*/
+
+
 .textinho1 {
     width: 500px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #616161;
     text-align: justify;
     margin-left: 10%;
     /* padding-bottom: 5%; */
@@ -97,6 +116,12 @@
     border:transparent;
 }
 
+.tabelaU {
+    border:transparent;
+    margin-left: 20%;
+}
+
+
 .rodape {
     padding-left: 50px;
     padding-right: 30px;
@@ -105,25 +130,25 @@
 }
 
 .integrantes {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
     line-height: 10px;
     padding-top: 35px;
-    font-size: 28px;
-    font-weight: 75;
+    font-size: 150%;
+    font-weight: bold;
     text-align: right;
     color: white;
 }
 
 .nomes {
-    font-family: 'Poppins', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 105%;
+    font-weight: 650;
     text-align: right;
     color: white;
 }
 
 .simbolo {
-    padding-top: 1%;
+    padding-top: 1.5%;
     height: 75px;
     width: 250px;
 }
@@ -136,14 +161,14 @@
 
 .mod {
     width: 500px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-align: justify;
     padding-bottom: 50px; 
 }
 
 .espaço {
-    padding: 4%;
+    padding: 3%;
 }
 
 .logo {
